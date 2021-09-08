@@ -1,0 +1,57 @@
+
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1{
+    text-align: center;
+    color: #334a55;
+}
+
+.container{
+    background-color: rgb(247, 239, 239);
+    padding: 20px;
+}
+
+
+div > img {
+    height: 200px;
+}
+
+.fila1, .fila2, .fila3{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.fila1{
+    
+    background-color: #56c2e4;
+}  
+
+.fila2{
+
+    background-color: #d79edc;
+    
+}
+
+.fila3{
+    
+    background-color: white;
+    
+}
+
+div{
+    font-size: small;
+    color: #334a55;
+    font-weight: bold;
+    margin: 15px 0;
+    text-align: center;
+}
+
+a{
+    font-weight: bold;
+    color: #56c2e4;
+}
